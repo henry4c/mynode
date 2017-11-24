@@ -10,9 +10,9 @@ var config = {
 
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
-  name: 'Nodeclub', // 社区名字
-  description: 'CNode：Node.js专业中文社区', // 社区的描述
-  keywords: 'nodejs, node, express, connect, socket.io',
+  name: 'IT', // 社区名字
+  description: '技术交流社区', // 社区的描述
+  keywords: 'java, nodejs, node, express, connect, socket.io',
 
   // 添加到 html head 中的信息
   site_headers: [
@@ -28,7 +28,7 @@ var config = {
   // cdn host，如 http://cnodejs.qiniudn.com
   site_static_host: '', // 静态文件存储域名
   // 社区的域名
-  host: 'localhost',
+  host: '101.200.62.180:3000',
   // 默认的Google tracker ID，自有站点请修改，申请地址：http://www.google.com/analytics/
   google_tracker_id: '',
   // 默认的cnzz tracker ID，自有站点请修改
@@ -54,10 +54,10 @@ var config = {
 
   // RSS配置
   rss: {
-    title: 'CNode：Node.js专业中文社区',
-    link: 'http://cnodejs.org',
+    title: '技术交流社区',
+    link: 'http://101.200.62.180:3000',
     language: 'zh-cn',
-    description: 'CNode：Node.js专业中文社区',
+    description: '技术交流社区',
     //最多获取的RSS Item数量
     max_rss_items: 50
   },
